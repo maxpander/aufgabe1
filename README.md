@@ -1,6 +1,6 @@
 # KSwe SoSe 2016 - Aufgabe 1
 
-Ziel dieser Aufgabe ist die Nutzung von GitHubs Pull Request
+Ziel dieser Aufgabe ist die Nutzung von GitHubs [Pull Request](https://help.github.com/articles/using-pull-requests/)
 Feature zur kollaborativen Anpassung einer Java-Klasse.
 
 ## Beschreibung
@@ -9,7 +9,8 @@ Die Klasse `TeamMemberLogger.java` gibt momentan noch eine
 Platzhaltermeldung aus. Passt im Team die Klasse so an, dass sie
 alle Mitglieder des Teams (eines pro Zeile) ausgibt. Jedes Team-
 Mitglied soll hierbei in seinem eigenen Fork die eigenen
-Informationen einbinden.
+Informationen einbinden. Die Integration der einzelnen Beiträge
+soll durch mehrere Pull Requests durchgeführt werden.
 
 ## Ergebnis
 
