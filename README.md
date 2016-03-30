@@ -23,7 +23,6 @@ Beispielthalte Ausgabe:
 2016-03-25 15:40:23 - Barbara Klein
 2016-03-25 15:40:23 - Kevin Pearson
 2016-03-25 15:40:24 - Ronny Bennett
-
 ```
 
 ## Zusatzaufgabe
