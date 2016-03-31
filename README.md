@@ -12,6 +12,11 @@ Mitglied soll hierbei in seinem eigenen Fork die eigenen
 Informationen einbinden. Die Integration der einzelnen Beiträge
 soll durch mehrere Pull Requests durchgeführt werden.
 
+### Nutzung von Forks
+
+Die Aufgabe soll explizit durch die Nutzung von Forks und entsprechenden
+Pull Requests gelöst werden.
+
 ## Ergebnis
 
 Als Ergebnis soll bei Ausführung des Programms jedes Team-Mitglied
