@@ -1,5 +1,8 @@
 package de.hsbochum.fbg.kswe.aufgabe1;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class TeamMemberLogger {
 	
 	public static void main(String[] args) {
@@ -8,15 +11,33 @@ public class TeamMemberLogger {
 		tml.doLog();
 	}
 
+	private List<TeamMember> members;
+
 	private void loadTeamMembers() {
+		this.members = new ArrayList<>();
+		
+		loadMemberA();
+		loadMemberB();
+		loadMemberC();
+	}
+
+	private void loadMemberC() {
+		
+	}
+
+	private void loadMemberB() {
+		
+	}
+
+	private void loadMemberA() {
 		
 	}
 
 	private void doLog() {
-		int memberCount = 0;
-		System.out.println(String.format("%s Mitglieder insgesamt:", memberCount));
-		System.out.println("Noch keine Mitglieder");
-		//TODO list team members
+		System.out.println(String.format("%s Mitglieder insgesamt:", this.members.size()));
+		this.members.stream().forEach(m -> {
+			System.out.println(m.toString());
+		});
 	}
 	
 }
